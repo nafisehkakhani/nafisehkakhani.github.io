@@ -15,7 +15,7 @@ from pybtex.database.input import bibtex
 
 def get_personal_data():
     name = ["Nafiseh", "Kakhani"]
-    email = "nafiseh-kakhani@uni-tuebingen.de"
+    email = "nafiseh.kakhani@uni-tuebingen.de"
     twitter = "NafisehKakhani"
     github = "nafisehkakhani"
     linkedin = "nafiseh-kakhani"
