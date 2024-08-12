@@ -125,7 +125,7 @@ def get_author_dict():
 # 'Sara Attarchi',
 # 'Seyed Kazem Alavipanah'
 
-def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Nafiseh Kakhani', add_links=False):
+def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Nafiseh Kakhani', add_links=True):
     links = get_author_dict() if add_links else {}
     s = ""
     for p in persons:
