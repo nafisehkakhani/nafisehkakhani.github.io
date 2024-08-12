@@ -52,12 +52,6 @@ def get_personal_data():
     """
     return name, bio_text, footer
 
-def get_author_dict():
-    return {
-        'Michael Mommert': 'https://mommermi.github.io/',
-        'Nikolaos Tziolas': 'https://swfrec.ifas.ufl.edu/faculty/tziolas/',
-        'Thomas Scholten': 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/',
-    }
 
 # def get_author_dict():
 #     return {
@@ -114,18 +108,26 @@ def get_author_dict():
 
 def get_author_dict():
     return {
-        'Thomas Scholten',
-        'Mehdi Mokhtarzade',
-        'Muhammad Javad Valadan Zoej',
-        'Meisam Amani',
-        'Setareh Alamdar',
-        'Ndiyeh Kebonyeh',
-        'Ruhollah Taghizadeh',
-        'Kamal Nabiollahi',
-        'Moien Rangzan',
-        'Sara Attarchi',
-        'Seyed Kazem Alavipanah'
+        
+    }
+
+def get_author_dict():
+    return {
+        'Michael Mommert': 'https://mommermi.github.io/',
+        'Nikolaos Tziolas': 'https://swfrec.ifas.ufl.edu/faculty/tziolas/',
+        'Thomas Scholten': 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/',
         }
+
+'Mehdi Mokhtarzade',
+'Muhammad Javad Valadan Zoej',
+'Meisam Amani',
+'Setareh Alamdar',
+'Ndiyeh Kebonyeh',
+'Ruhollah Taghizadeh',
+'Kamal Nabiollahi',
+'Moien Rangzan',
+'Sara Attarchi',
+'Seyed Kazem Alavipanah'
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Nafiseh Kakhani', add_links=False):
     links = get_author_dict() if add_links else {}
