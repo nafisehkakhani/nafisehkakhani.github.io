@@ -105,12 +105,8 @@ def get_personal_data():
 #         'Kunyi Li': 'https://campus.tum.de/tumonline/ee/ui/ca2/app/desktop/#/pl/ui/$ctx/visitenkarte.show_vcard?$ctx=design=ca2;header=max;lang=de&pPersonenGruppe=3&pPersonenId=6EC78DAA25310FF2',
 #         'Nassir Navab': 'https://www.professoren.tum.de/en/navab-nassir',
 #         }
-
-def get_author_dict():
-    return {
-        
-    }
-
+# 
+# 
 def get_author_dict():
     return {
         'Michael Mommert': 'https://mommermi.github.io/',
@@ -118,16 +114,16 @@ def get_author_dict():
         'Thomas Scholten': 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/',
         }
 
-'Mehdi Mokhtarzade',
-'Muhammad Javad Valadan Zoej',
-'Meisam Amani',
-'Setareh Alamdar',
-'Ndiyeh Kebonyeh',
-'Ruhollah Taghizadeh',
-'Kamal Nabiollahi',
-'Moien Rangzan',
-'Sara Attarchi',
-'Seyed Kazem Alavipanah'
+# 'Mehdi Mokhtarzade',
+# 'Muhammad Javad Valadan Zoej',
+# 'Meisam Amani',
+# 'Setareh Alamdar',
+# 'Ndiyeh Kebonyeh',
+# 'Ruhollah Taghizadeh',
+# 'Kamal Nabiollahi',
+# 'Moien Rangzan',
+# 'Sara Attarchi',
+# 'Seyed Kazem Alavipanah'
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Nafiseh Kakhani', add_links=False):
     links = get_author_dict() if add_links else {}
