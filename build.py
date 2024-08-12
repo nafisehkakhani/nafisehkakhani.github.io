@@ -52,6 +52,13 @@ def get_personal_data():
     """
     return name, bio_text, footer
 
+def get_author_dict():
+    return {
+        'Michael Mommert': 'https://mommermi.github.io/',
+        'Nikolaos Tziolas': 'https://swfrec.ifas.ufl.edu/faculty/tziolas/',
+        'Thomas Scholten': 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/',
+    }
+
 # def get_author_dict():
 #     return {
 #         'Andreas Geiger': 'https://www.cvlibs.net/',
