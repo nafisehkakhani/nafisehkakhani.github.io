@@ -112,6 +112,8 @@ def get_author_dict():
         'Michael Mommert': 'https://mommermi.github.io/',
         'Nikolaos Tziolas': 'https://swfrec.ifas.ufl.edu/faculty/tziolas/',
         'Thomas Scholten': 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/',
+        'Seyed Kazem Alavipanah': 'https://alavipanah.ir/',
+        'Sara Attarchi': 'https://profile.ut.ac.ir/en/~satarchi'
         }
 
 # 'Mehdi Mokhtarzade',
