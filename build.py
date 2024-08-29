@@ -112,8 +112,9 @@ def get_author_dict():
         'Michael Mommert': 'https://mommermi.github.io/',
         'Nikolaos Tziolas': 'https://swfrec.ifas.ufl.edu/faculty/tziolas/',
         'Thomas Scholten': 'https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/',
-        'Seyed Kazem Alavipanah': 'https://alavipanah.ir/',
-        'Sara Attarchi': 'https://profile.ut.ac.ir/en/~satarchi'
+        'Seyed-Kazem Alavipanah': 'https://alavipanah.ir/',
+        'Sara Attarchi': 'https://profile.ut.ac.ir/en/~satarchi',
+        'Mohammad Javad Valadan Zoej' : 'https://wp.kntu.ac.ir/valadanzouj/'
         }
 
 # 'Mehdi Mokhtarzade',
@@ -206,6 +207,17 @@ def get_publications_html():
     for k in keys:
         s+= get_paper_entry(k, bib_data.entries[k])
     return s
+
+# @article{kakhani2023soilnet,
+#   title={SoilNet: An Attention-based Spatio-temporal Deep Learning Framework for Soil Organic Carbon Prediction with Digital Soil Mapping in Europe},
+#   author={Nafiseh Kakhani and Rangzan, Moien and Jamali, Ali and Attarchi, Sara and Alavipanah, Seyed Kazem and Scholten, Thomas},
+#   journal={arXiv preprint},
+#   year={2023},
+#   doi = {https://arxiv.org/abs/2308.03586},
+#   publisher={ARXIV},
+#   code = {https://github.com/moienr/SoilNet/tree/preprint_version},
+#   img = {assets/img/publications/SoilNet1.png}
+# }
 
 # def get_talks_html():
 #     parser = bibtex.Parser()
