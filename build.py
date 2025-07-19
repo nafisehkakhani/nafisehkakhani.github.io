@@ -15,18 +15,21 @@ from pybtex.database.input import bibtex
 
 def get_personal_data():
     name = ["Nafiseh", "Kakhani"]
-    email = "nafiseh.kakhani@uni-tuebingen.de"
+    email = "nafiseh.kakhani@thelandbankinggroup.com"
     twitter = "NafisehKakhani"
     github = "nafisehkakhani"
     linkedin = "nafiseh-kakhani"
     bio_text = f"""
                 <p>
                 
-                I am a Remote Sensing Engineer, currently an Earth Observation and Machine Learning Scientist at The Landbanking Group GmbH in Munich <a href="https://www.thelandbankinggroup.com/"> 
-                with a focus on developing the STOA model for remote sensing image processing in support of nature conservation and regenerative agriculture. Before that, I was a Postdoctoral Researcher at the
-                University of Tuebingen (Germany) in the Geoscience Department under
-                Prof. Dr. Thomas Scholten</a>, where I applied computer vision, machine learning, and
-                deep learning techniques to Earth observation data to extract environmental insights, particularly related to soil.
+                I am a Remote Sensing Engineer, currently an Earth Observation and Machine Learning Scientist at
+                <a href="https://www.thelandbankinggroup.com/">The Landbanking Group GmbH in Munich</a>,
+                with a focus on developing the STOA model for remote sensing image processing in support of nature conservation and regenerative agriculture.
+
+                Before that, I was a Postdoctoral Researcher at the
+                University of Tuebingen (Germany) in the Geoscience Department under Prof. Dr. Thomas Scholten,
+                where I applied computer vision, machine learning, and deep learning techniques to Earth observation data to extract environmental insights, particularly related to soil.
+
                 My academic background includes a Bachelor's in Geomatics Engineering, followed by a Master's and PhD in Remote Sensing.
 
                 </p>
@@ -413,7 +416,7 @@ def get_index_html():
                         {bio_text}
                     </div>
                     <div class="col-md-2" style="">
-                        <img src="assets/img/profile1.png" class="img-thumbnail" width="280px" alt="Profile picture">
+                        <img src="assets/img/profile1.png" class="img-thumbnail" width="360px" alt="Profile picture">
                     </div>
         </div>
         <div class="row" style="margin-top: 2em;">
