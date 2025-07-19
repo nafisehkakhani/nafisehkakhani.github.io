@@ -22,11 +22,11 @@ def get_personal_data():
     bio_text = f"""
                 <p>
                 
-                I am a Remote Sensing Engineer and Geospatial Data Scientist, currently a Postdoc Researcher at the 
-                University of Tuebingen (Germany) in the Geoscience department under 
-                <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geographie/forschungsbereich/bodenkunde-und-geomorphologie/work-group/people-main-pages/team-profs-senior/prof-dr-thomas-scholten/">Prof. Dr. Thomas Scholten</a>. 
-                My area of expertise lies in using computer vision for earth observation, but lately, I've been focusing on applying machine learning and 
-                deep learning to extract environmental insights, especially concerning soil. 
+                I am a Remote Sensing Engineer, currently an Earth Observation and Machine Learning Scientist at The Landbanking Group GmbH in Munich <a href="https://www.thelandbankinggroup.com/"> 
+                with a focus on developing the STOA model for remote sensing image processing in support of nature conservation and regenerative agriculture. Before that, I was a Postdoctoral Researcher at the
+                University of Tuebingen (Germany) in the Geoscience Department under
+                Prof. Dr. Thomas Scholten</a>, where I applied computer vision, machine learning, and
+                deep learning techniques to Earth observation data to extract environmental insights, particularly related to soil.
                 My academic background includes a Bachelor's in Geomatics Engineering, followed by a Master's and PhD in Remote Sensing.
 
                 </p>
@@ -34,7 +34,6 @@ def get_personal_data():
                 <p>
                     
                     <a href="mailto:nafiseh.kakhani@uni-tuebingen.de" style="margin-right: 5px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
-                    <a href="https://twitter.com/NafisehKakhani" target="_blank" style="margin-right: 5px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
                     <a href="https://scholar.google.com/citations?user=b7EX1rUAAAAJ&hl=en" target="_blank" style="margin-right: 5px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/nafisehkakhani" target="_blank" style="margin-right: 5px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/nafiseh-kakhani-b43a6a47/" target="_blank" style="margin-right: 5px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
@@ -414,7 +413,7 @@ def get_index_html():
                         {bio_text}
                     </div>
                     <div class="col-md-2" style="">
-                        <img src="assets/img/linked1.JPG" class="img-thumbnail" width="280px" alt="Profile picture">
+                        <img src="assets/img/profile1.png" class="img-thumbnail" width="280px" alt="Profile picture">
                     </div>
         </div>
         <div class="row" style="margin-top: 2em;">
