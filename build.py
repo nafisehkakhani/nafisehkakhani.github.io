@@ -23,7 +23,7 @@ def get_personal_data():
                 <p>
                 
                 I am a Remote Sensing Engineer, currently an Earth Observation and Machine Learning Scientist at
-                <a href="https://www.thelandbankinggroup.com/">The Landbanking Group GmbH in Munich</a>,
+                <a href="https://www.thelandbankinggroup.com/">The Landbanking Group GmbH</a> in Munich,
                 with a focus on developing the STOA model for remote sensing image processing in support of nature conservation and regenerative agriculture.
 
                 Before that, I was a Postdoctoral Researcher at the
@@ -416,7 +416,7 @@ def get_index_html():
                         {bio_text}
                     </div>
                     <div class="col-md-2" style="">
-                        <img src="assets/img/profile1.png" class="img-thumbnail" width="360px" alt="Profile picture">
+                        <img src="assets/img/profile1.png" class="img-thumbnail" width="480px" alt="Profile picture">
                     </div>
         </div>
         <div class="row" style="margin-top: 2em;">
